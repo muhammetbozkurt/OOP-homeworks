@@ -17,11 +17,11 @@ int main(){
 	Vector** vec_holder;
 	int pol_size,vec_size,temp_limit; 
 	/*
-	pol_size and vec_size holds size of arrays 
+	pol_size and vec_size hold size of arrays 
 	temp_limit holds limit of int arrays
 	pol_holder is our polynom data array
 	vec_holder is our vector data array
-	both of them holds address of objects to prevent unwanted construct operation
+	both of them hold address of objects to prevent unwanted construct operation
 	*/
 	int* temp_memory=NULL;
 	char buffer[100];
